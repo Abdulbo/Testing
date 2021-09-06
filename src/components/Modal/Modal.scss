@@ -1,0 +1,86 @@
+.wrapper-curtain {
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(88, 117, 136, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    
+   
+    .wrapper-form {
+        flex-direction: column;
+        width: 383px;
+        height: 393px;
+        background-color: #fff;
+        border-radius: 16px;
+        padding: 20px;
+       
+
+        h3 {
+            margin: 10px 0;
+        }
+
+        .wrapper-form__form {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            label {
+                color: rgb(94, 110, 127);
+                font-weight: 400;
+                font-size: 14px;
+                margin: 5px 0;
+
+            }
+
+            .form__input-name {
+                width: 331px;
+                height: 46px;
+                border-radius: 10px;
+                border: none;
+                outline: none;
+                box-shadow: none;
+                border: 1px solid rgb(219, 227, 233);
+                padding: 0 10px;
+            }
+
+            .form__select {
+                width: 331px;
+                height: 46px;
+                border-radius: 10px;
+                border: none;
+                outline: none;
+                box-shadow: none;
+                border: 1px solid rgb(219, 227, 233);
+                padding: 0 10px;
+                color: rgb(191,197,202);
+            }
+            .form__btn-create{
+                width: 331px;
+                height: 46px;
+                color: #fff;
+                border-radius: 10px;
+                border: none ;
+                background-color: rgb(255,111,32);
+                margin: 20px 0;
+                cursor: pointer;
+            }
+            .form__btn-canceled{
+                width: 331px;
+                height: 46px;
+                color: rgb(255,111,32);
+                border-radius: 10px;
+                border: none ;
+                border:  1px solid rgb(255,111,32);
+                background-color: transparent;
+                cursor: pointer;
+              
+            }
+        }
+
+    }
+}

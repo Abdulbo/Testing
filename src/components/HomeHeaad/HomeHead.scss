@@ -1,0 +1,76 @@
+.headWrapper {
+    .headWrapper__list {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        .headWrapper__item {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 245px;
+            height: 187px;
+            margin-right: 20px;
+            background-color: #fff;
+            border-radius: 16px;
+            padding:  7px 15px 15px 15px;
+            &:nth-child(4){
+                align-items: center;
+                border: 1px solid #FF6F20;
+                color: #FF6F20;
+            }
+            .headWrapper__item__title{
+                color: #283E54;
+                font-weight: 500;
+                font-size: 16px;
+                margin-bottom: 15px;
+            }
+            .headWrapper__item__span{
+                display: flex;
+                .headWrapper__item__text1{
+                    color: #BAC5CF;
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin-right: 4px;
+
+                }
+                .headWrapper__item__text2{
+                    color: #283E54;
+                    font-size: 14px;
+                    font-weight: 400;
+                    
+                }
+               
+            }
+            .headWrapper__item__span-data{
+                display: flex;
+                margin-top: 10px;
+                .headWrapper__item__text1-data{
+                    color: #BAC5CF;
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin-right: 4px;
+
+                }
+                .headWrapper__item__text2-data{
+                    color: #283E54;
+                    font-size: 14px;
+                    font-weight: 400;
+
+                }
+            }
+
+        }
+        .item__btn{
+            width: 215px;
+            height: 46px;
+            background-color: transparent;
+            color: #FF6F20;
+            border: none;
+            border: 1px solid #FF6F20;
+            border-radius: 10px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+    }
+}

@@ -1,0 +1,27 @@
+.container-home {
+    min-width: 80%;
+    background-color: rgb(249, 249, 249);
+    min-height: 100vh;
+    padding: 20px;
+    position: relative;
+
+    .header {
+        display: flex;
+        justify-content: flex-end;
+
+        .header__wrapper-list {
+            display: flex;
+
+            .wrapper-list__item-img {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 17px;
+                background-color: #fff;
+                width: 42px;
+                height: 42px;
+                border-radius: 10px;
+            }
+        }
+    }
+}
